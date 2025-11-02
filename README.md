@@ -6,10 +6,10 @@
 
   <p class="projectBadges">
     <img src="https://johng.io/badges/category/Other.svg" alt="Project category" title="Project category">
-    <img src="https://img.shields.io/github/languages/top/jerboa88/dotfiles.svg" alt="Language" title="Language">
-    <img src="https://img.shields.io/github/repo-size/jerboa88/dotfiles.svg" alt="Repository size" title="Repository size">
+    <img src="https://img.shields.io/github/languages/top/twocaretcat/dotfiles.svg" alt="Language" title="Language">
+    <img src="https://img.shields.io/github/repo-size/twocaretcat/dotfiles.svg" alt="Repository size" title="Repository size">
     <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/jerboa88/dotfiles.svg" alt="Project license" title="Project license"/>
+      <img src="https://img.shields.io/github/license/twocaretcat/dotfiles.svg" alt="Project license" title="Project license"/>
     </a>
   </p>
 
@@ -23,9 +23,9 @@
 
 ## 📦 Installation
 > [!NOTE]
-> If you want to customize this setup to suit your needs, I'd recommend forking this repo and then replacing `jerboa88` with your own GitHub username in the commands below
+> If you want to customize this setup to suit your needs, I'd recommend forking this repo and then replacing `twocaretcat` with your own GitHub username in the commands below
 
-1. Run `sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply jerboa88` to install [Chezmoi](https://www.chezmoi.io/) and clone the dotfiles repo. If you already have Chezmoi installed, use `chezmoi init --apply jerboa88` instead.
+1. Run `sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply twocaretcat` to install [Chezmoi](https://www.chezmoi.io/) and clone the dotfiles repo. If you already have Chezmoi installed, use `chezmoi init --apply twocaretcat` instead.
 2. Make a copy of your existing dotfiles in case you want to revert changes
 3. See the differences between the repo and your home directory with `chezmoi diff`.
 4. If you are okay with the changes, you can apply them to your home directory with `chezmoi apply -v`
