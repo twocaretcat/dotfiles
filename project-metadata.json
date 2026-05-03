@@ -1,9 +1,16 @@
 {
-  "$schema": "https://johng.io/schema/project-metadata.json",
-  "name": "Dotfiles",
+	"$schema": "https://johng.io/schema/project-metadata.json",
+	"name": "Dotfiles",
+	"tagline": "There's no place like $HOME",
+	"background": "Maintained a personal Chezmoi-managed dotfiles repo for repeatable Linux development machine setup. It provisions shell, editor, terminal, and desktop app configuration for tools like Zsh, Kitty, and AstroNvim. The repo uses Shell, Lua, JSON, TOML, and INI config files to keep settings versioned and recoverable through a documented Chezmoi install workflow.",
 	"logoPath": "icon.svg",
 	"category": "Other",
-  "technologies": [
-    "Chezmoi"
-  ]
+	"technologies": ["Chezmoi"],
+	"tools": ["Dependabot", "Git", "GitHub", "VS Code"],
+	"topics": ["OSS", "Technical Documentation", "Version Control"],
+	"schema": {
+		"type": "Software",
+		"applicationCategory": "Utilities",
+		"operatingSystem": "Linux"
+	}
 }
